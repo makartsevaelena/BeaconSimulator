@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:background="#fff"
+                android:layout_height="match_parent">
+
+
+    <TextView
+            android:id="@+id/uuid_simu_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UUID"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+    />
+
+    <TextView
+            android:id="@+id/uuid_simu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UUID"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/uuid_simu_one"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:padding="20dp"
+    />
+
+
+    <Button
+            android:id="@+id/make_beacon"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textColor="#fff"
+            android:background="#004D40"
+            android:layout_below="@id/uuid_simu"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make Beacon"/>
+
+
+</RelativeLayout>
